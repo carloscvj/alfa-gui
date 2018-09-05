@@ -163,7 +163,7 @@ public class BqdaBarra extends javax.swing.JPanel {
         teclasPanel.setOpaque(false);
 
         botonesc.setFont(botonesc.getFont().deriveFont((botonesc.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonesc.getFont().getSize()-2));
-        botonesc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/Salir16.gif"))); // NOI18N
+        botonesc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/Salir16.gif"))); // NOI18N
         botonesc.setText(bundle.getString("Esc")); // NOI18N
         botonesc.setActionCommand("ESC");
         botonesc.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -177,7 +177,7 @@ public class BqdaBarra extends javax.swing.JPanel {
         teclasPanel.add(botonesc);
 
         botonF3.setFont(botonF3.getFont().deriveFont((botonF3.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonF3.getFont().getSize()-2));
-        botonF3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/Salva16.gif"))); // NOI18N
+        botonF3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/Salva16.gif"))); // NOI18N
         botonF3.setText(bundle.getString("F3")); // NOI18N
         botonF3.setToolTipText(bundle.getString("Seleccionar")); // NOI18N
         botonF3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -197,7 +197,7 @@ public class BqdaBarra extends javax.swing.JPanel {
         navegarPanel.setOpaque(false);
 
         botonprimero.setFont(botonprimero.getFont().deriveFont((botonprimero.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonprimero.getFont().getSize()-2));
-        botonprimero.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/Primero.gif"))); // NOI18N
+        botonprimero.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/Primero.gif"))); // NOI18N
         botonprimero.setText(bundle.getString("Primera")); // NOI18N
         botonprimero.setToolTipText(bundle.getString("Pulse_Ctrl_Inicio")); // NOI18N
         botonprimero.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -211,7 +211,7 @@ public class BqdaBarra extends javax.swing.JPanel {
         navegarPanel.add(botonprimero);
 
         botonanterior.setFont(botonanterior.getFont().deriveFont((botonanterior.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonanterior.getFont().getSize()-2));
-        botonanterior.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/Anterior.gif"))); // NOI18N
+        botonanterior.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/Anterior.gif"))); // NOI18N
         botonanterior.setText(bundle.getString("Anterior")); // NOI18N
         botonanterior.setToolTipText(bundle.getString("Pulse_Ctrl_RePag")); // NOI18N
         botonanterior.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -226,7 +226,7 @@ public class BqdaBarra extends javax.swing.JPanel {
         navegarPanel.add(botonanterior);
 
         botonsiguiente.setFont(botonsiguiente.getFont().deriveFont((botonsiguiente.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonsiguiente.getFont().getSize()-2));
-        botonsiguiente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/Siguiente.gif"))); // NOI18N
+        botonsiguiente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/Siguiente.gif"))); // NOI18N
         botonsiguiente.setText(bundle.getString("Siguiente")); // NOI18N
         botonsiguiente.setToolTipText(bundle.getString("Pulse_Ctrl_AvPag")); // NOI18N
         botonsiguiente.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -241,7 +241,7 @@ public class BqdaBarra extends javax.swing.JPanel {
         navegarPanel.add(botonsiguiente);
 
         botonultimo.setFont(botonultimo.getFont().deriveFont((botonultimo.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonultimo.getFont().getSize()-2));
-        botonultimo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/Ultimo.gif"))); // NOI18N
+        botonultimo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/Ultimo.gif"))); // NOI18N
         botonultimo.setText(bundle.getString("Ultima")); // NOI18N
         botonultimo.setToolTipText(bundle.getString("Pulse_Ctrl_Fin")); // NOI18N
         botonultimo.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));

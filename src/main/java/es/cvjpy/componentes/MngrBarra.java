@@ -258,7 +258,7 @@ public class MngrBarra extends javax.swing.JPanel {
         teclasPanel.setOpaque(false);
 
         botonesc.setFont(botonesc.getFont().deriveFont((botonesc.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonesc.getFont().getSize()-2));
-        botonesc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/Salir16.gif"))); // NOI18N
+        botonesc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/Salir16.gif"))); // NOI18N
         botonesc.setText(bundle.getString("Esc")); // NOI18N
         botonesc.setToolTipText(bundle.getString("Salir")); // NOI18N
         botonesc.setActionCommand("ESC");
@@ -273,7 +273,7 @@ public class MngrBarra extends javax.swing.JPanel {
         teclasPanel.add(botonesc);
 
         botonF1.setFont(botonF1.getFont().deriveFont((botonF1.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonF1.getFont().getSize()-2));
-        botonF1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/Ayuda16.gif"))); // NOI18N
+        botonF1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/Ayuda16.gif"))); // NOI18N
         botonF1.setText(bundle.getString("F1")); // NOI18N
         botonF1.setToolTipText(bundle.getString("Ayuda")); // NOI18N
         botonF1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -287,7 +287,7 @@ public class MngrBarra extends javax.swing.JPanel {
         teclasPanel.add(botonF1);
 
         botonF2.setFont(botonF2.getFont().deriveFont((botonF2.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonF2.getFont().getSize()-2));
-        botonF2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/Buscar16.gif"))); // NOI18N
+        botonF2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/Buscar16.gif"))); // NOI18N
         botonF2.setText(bundle.getString("F2")); // NOI18N
         botonF2.setToolTipText(bundle.getString("Buscar")); // NOI18N
         botonF2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -301,7 +301,7 @@ public class MngrBarra extends javax.swing.JPanel {
         teclasPanel.add(botonF2);
 
         botonF3.setFont(botonF3.getFont().deriveFont((botonF3.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonF3.getFont().getSize()-2));
-        botonF3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/Salva16.gif"))); // NOI18N
+        botonF3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/Salva16.gif"))); // NOI18N
         botonF3.setText(bundle.getString("F3")); // NOI18N
         botonF3.setToolTipText(bundle.getString("Guardar")); // NOI18N
         botonF3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -315,7 +315,7 @@ public class MngrBarra extends javax.swing.JPanel {
         teclasPanel.add(botonF3);
 
         botonF4.setFont(botonF4.getFont().deriveFont((botonF4.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonF4.getFont().getSize()-2));
-        botonF4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/Actualiza16.png"))); // NOI18N
+        botonF4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/Actualiza16.png"))); // NOI18N
         botonF4.setText(bundle.getString("F4")); // NOI18N
         botonF4.setToolTipText(bundle.getString("Actualizar")); // NOI18N
         botonF4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -329,7 +329,7 @@ public class MngrBarra extends javax.swing.JPanel {
         teclasPanel.add(botonF4);
 
         botonF5.setFont(botonF5.getFont().deriveFont((botonF5.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonF5.getFont().getSize()-2));
-        botonF5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/Nuevo16.gif"))); // NOI18N
+        botonF5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/Nuevo16.gif"))); // NOI18N
         botonF5.setText(bundle.getString("F5")); // NOI18N
         botonF5.setToolTipText(bundle.getString("Nuevo")); // NOI18N
         botonF5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -343,7 +343,7 @@ public class MngrBarra extends javax.swing.JPanel {
         teclasPanel.add(botonF5);
 
         botonF6.setFont(botonF6.getFont().deriveFont((botonF6.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonF6.getFont().getSize()-2));
-        botonF6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/Borra16.gif"))); // NOI18N
+        botonF6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/Borra16.gif"))); // NOI18N
         botonF6.setText(bundle.getString("F6")); // NOI18N
         botonF6.setToolTipText(bundle.getString("Borrar")); // NOI18N
         botonF6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -357,7 +357,7 @@ public class MngrBarra extends javax.swing.JPanel {
         teclasPanel.add(botonF6);
 
         botonF7.setFont(botonF7.getFont().deriveFont((botonF7.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonF7.getFont().getSize()-2));
-        botonF7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/Listado16.gif"))); // NOI18N
+        botonF7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/Listado16.gif"))); // NOI18N
         botonF7.setText(bundle.getString("F7")); // NOI18N
         botonF7.setToolTipText(bundle.getString("Imprimir")); // NOI18N
         botonF7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -371,7 +371,7 @@ public class MngrBarra extends javax.swing.JPanel {
         teclasPanel.add(botonF7);
 
         botonF8.setFont(botonF8.getFont().deriveFont((botonF8.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonF8.getFont().getSize()-2));
-        botonF8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/Internet16.png"))); // NOI18N
+        botonF8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/Internet16.png"))); // NOI18N
         botonF8.setText(bundle.getString("F8")); // NOI18N
         botonF8.setToolTipText(bundle.getString("Importar")); // NOI18N
         botonF8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -390,7 +390,7 @@ public class MngrBarra extends javax.swing.JPanel {
         navegarPanel.setOpaque(false);
 
         botonprimero.setFont(botonprimero.getFont().deriveFont((botonprimero.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonprimero.getFont().getSize()-2));
-        botonprimero.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/Primero.gif"))); // NOI18N
+        botonprimero.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/Primero.gif"))); // NOI18N
         botonprimero.setText(bundle.getString("Primero")); // NOI18N
         botonprimero.setToolTipText(bundle.getString("Pulse_Ctrl_Inicio")); // NOI18N
         botonprimero.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -404,7 +404,7 @@ public class MngrBarra extends javax.swing.JPanel {
         navegarPanel.add(botonprimero);
 
         botonanterior.setFont(botonanterior.getFont().deriveFont((botonanterior.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonanterior.getFont().getSize()-2));
-        botonanterior.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/Anterior.gif"))); // NOI18N
+        botonanterior.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/Anterior.gif"))); // NOI18N
         botonanterior.setText(bundle.getString("Anterior")); // NOI18N
         botonanterior.setToolTipText(bundle.getString("Pulse_Ctrl_RePag")); // NOI18N
         botonanterior.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -419,7 +419,7 @@ public class MngrBarra extends javax.swing.JPanel {
         navegarPanel.add(botonanterior);
 
         botonsiguiente.setFont(botonsiguiente.getFont().deriveFont((botonsiguiente.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonsiguiente.getFont().getSize()-2));
-        botonsiguiente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/Siguiente.gif"))); // NOI18N
+        botonsiguiente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/Siguiente.gif"))); // NOI18N
         botonsiguiente.setText(bundle.getString("Siguiente")); // NOI18N
         botonsiguiente.setToolTipText(bundle.getString("Pulse_Ctrl_AvPag")); // NOI18N
         botonsiguiente.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -434,7 +434,7 @@ public class MngrBarra extends javax.swing.JPanel {
         navegarPanel.add(botonsiguiente);
 
         botonultimo.setFont(botonultimo.getFont().deriveFont((botonultimo.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonultimo.getFont().getSize()-2));
-        botonultimo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/Ultimo.gif"))); // NOI18N
+        botonultimo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/Ultimo.gif"))); // NOI18N
         botonultimo.setText(bundle.getString("Ultimo")); // NOI18N
         botonultimo.setToolTipText(bundle.getString("Pulse_Ctrl_Fin")); // NOI18N
         botonultimo.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -453,7 +453,7 @@ public class MngrBarra extends javax.swing.JPanel {
         imagenPanel.setOpaque(false);
 
         botonimagen.setFont(botonimagen.getFont().deriveFont((botonimagen.getFont().getStyle() & ~java.awt.Font.ITALIC) & ~java.awt.Font.BOLD, botonimagen.getFont().getSize()-2));
-        botonimagen.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/alfamicroges/resources/AlfaLogo16.jpg"))); // NOI18N
+        botonimagen.setIcon(new javax.swing.ImageIcon(getClass().getResource("/es/cvjpy/resources/AlfaLogo16.jpg"))); // NOI18N
         botonimagen.setText(bundle.getString("Imagen")); // NOI18N
         botonimagen.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         botonimagen.setFocusable(false);
