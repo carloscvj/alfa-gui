@@ -434,4 +434,10 @@ public class PrincipalFrame extends javax.swing.JFrame implements GuiPro {
     public void rellama() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+    void setCli(PrincipalCliPro principalCliPro) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+
 }

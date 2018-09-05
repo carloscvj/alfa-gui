@@ -81,7 +81,7 @@ public abstract class PrincipalUIAbs extends PrincipalCliAbs implements Principa
 
     protected abstract void reiniciaTu();
 
-    protected String getIconoStr() {
+    protected String getIconStr() {
         return "/es/cvjpy/resources/Alfa0.jpg";
     }
 
@@ -185,7 +185,7 @@ public abstract class PrincipalUIAbs extends PrincipalCliAbs implements Principa
 
     @Override
     public Image getIcono() {
-        URL resource = getClass().getResource(getIconoStr());
+        URL resource = getClass().getResource(getIconStr());
         Image image = new ImageIcon().getImage();
         if (resource != null) {
             image = new ImageIcon(resource).getImage();
