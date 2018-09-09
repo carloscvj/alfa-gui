@@ -10,6 +10,9 @@
  */
 package es.cvjpy.cobol;
 
+import es.cvjpy.cobol.EntornoCobolLocal;
+import es.cvjpy.cobol.EntornoCobolLocal;
+
 /**
  *
  * @author CarlosVJ

@@ -11,6 +11,8 @@
  */
 package es.cvjpy.cobol;
 
+import es.cvjpy.cobol.ServidorConfiguracion;
+import es.cvjpy.cobol.ServidorConfiguracion;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JDialog;
